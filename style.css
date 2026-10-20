@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 5px;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    font-weight: bolder;
+    color: dodgerblue;
+}
+
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border: 1px solid #3333;
+
+    padding: 5px;
+    border-radius: 5px;
+
+    gap: 10px;
+}
+
+.caixaCampo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campoFormulario{
+    border: 1px solid #3333;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#botaoEnviar{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
